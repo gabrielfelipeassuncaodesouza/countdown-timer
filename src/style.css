@@ -1,0 +1,52 @@
+h1 {
+    margin: 40px;
+}
+
+body {
+    color: white;
+    background-color: rgb(34, 34, 63);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    width: 70px;
+    height: 40px;
+    margin: 20px 25px;
+    border-radius: 4em; border: 2px solid white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+p {
+    display: inline-block;
+    margin: 5px 35px;
+}
+
+label {
+    text-align: center;
+    position: relative;
+    top: var(--top-margin);
+}
+
+.visor {
+    display: flex;
+    justify-content: center;
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    color: white;
+    margin: 5px 37px;
+    text-align: center;
+    border-radius: 2em;
+    background-color: transparent;
+}
